@@ -1,0 +1,39 @@
+# Project Configuration
+project:
+  name: "BPO Intelligence Platform"
+  version: "1.0.0"
+
+# Data paths
+data:
+  raw: "data/raw"
+  processed: "data/processed"
+  features: "data/features"
+  external: "data/external"
+
+# Model paths
+models:
+  saved: "models/saved_models"
+  checkpoints: "models/checkpoints"
+
+# ML Configuration
+ml:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+# Feature Engineering
+features:
+  rolling_windows: [7, 14, 30]
+  lag_features: [1, 7, 14]
+
+# Model Hyperparameters
+xgboost:
+  max_depth: 6
+  learning_rate: 0.1
+  n_estimators: 100
+  objective: "binary:logistic"
+
+# AWS Configuration (will be set via environment variables)
+aws:
+  region: "us-east-1"
+  bucket: "bpo-intelligence-data"

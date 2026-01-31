@@ -1,0 +1,54 @@
+# Data Processing
+pandas==2.0.3
+numpy==1.24.3
+scikit-learn==1.3.0
+scipy==1.11.1
+
+# Visualization
+matplotlib==3.7.2
+seaborn==0.12.2
+plotly==5.15.0
+
+# Machine Learning
+xgboost==1.7.6
+lightgbm==4.0.0
+catboost==1.2
+
+# Deep Learning
+torch==2.0.1
+tensorflow==2.13.0
+transformers==4.30.2
+
+# NLP
+nltk==3.8.1
+spacy==3.6.0
+textblob==0.17.1
+
+# GenAI & LLM
+langchain==0.0.267
+anthropic==0.3.11
+openai==0.27.8
+sentence-transformers==2.2.2
+
+# Agentic AI
+langgraph==0.0.20
+langchain-experimental==0.0.21
+
+# AWS
+boto3==1.28.17
+sagemaker==2.172.0
+
+# API & Web
+fastapi==0.100.0
+uvicorn==0.23.1
+streamlit==1.25.0
+
+# Utilities
+python-dotenv==1.0.0
+pyyaml==6.0.1
+tqdm==4.65.0
+joblib==1.3.1
+
+# Testing
+pytest==7.4.0
+pytest-cov==4.1.0
